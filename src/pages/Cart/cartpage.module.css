@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+.amount {
+  align-self: center;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
